@@ -31,7 +31,7 @@ jobs:
       run: npm install
 
     # Step to run the bot with the correct port
-    - name: Start the bot
+    - name: Start the bot. js
       env:
         PORT: 8080
       run: nohup npm start
